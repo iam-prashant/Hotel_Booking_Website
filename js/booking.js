@@ -1,0 +1,23 @@
+$(document).ready(function(){
+    $('.datepicker').datepicker();
+    $('select').formSelect();
+    $('input.select-city').autocomplete({
+        data: {
+            "Delhi":null,
+            "Mumbai":null,
+            "Kolkata":null,
+            "Chennai":null,
+            "Bangalore":null,
+            "Hyderabad":null,
+            "Surat":null,
+            "Lucknow":null, 
+            "Jaipur":null,
+            "Indore":null,
+            "Ranchi":null,
+            "Raipur":null,
+            "Dehradun":null,
+            "Vijaywada":null,
+            "Shimla":null
+        },
+    });
+});

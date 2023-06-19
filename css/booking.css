@@ -1,0 +1,23 @@
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url("../img/main2.jpg");
+    background-size: cover;
+}
+.booking-form{
+    width: 500px;
+    margin: 100px;
+}
+h4{
+    color: #fff;
+    line-height: 48px;
+    margin-bottom: 25px;
+}
+.input-field>label{
+    color: #b3b3b3;
+}
+input{
+    border-color: #fff;
+    color: #fff;
+}
+label{
+    text-transform: uppercase;
+}

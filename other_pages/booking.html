@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>Book your room</title>
+      <link rel="stylesheet" href="../css/booking.css">
+      <link rel="stylesheet" href="../css/external_css/materialize/materialize.min.css"> 
+    </head>
+<body>
+<div class="booking-form">
+    <form class="col s8">
+        <h4>Search for your hotel and book your room</h4>
+        <div class="row">
+            
+            <div class="input-field col s12">
+                <input type="text" id="select_city" class="validate select-city">
+                <label for="select_city">Select City</label>
+            </div>
+
+            <div class="input-field col s6">
+                <input type="text" id="date_picker1" class="datepicker">
+                <label for="date_picker1">Check-in</label>
+            </div>
+
+            <div class="input-field col s6">
+                <input type="text" id="date_picker2" class="datepicker">
+                <label for="date_picker2">Check-out</label>
+            </div>
+
+            <div class="input-field col s6">
+            <select>
+                <option value="1">Adult 1</option>
+                <option value="2">Adult 2</option>
+                <option value="3">Adult 3</option>
+                <option value="4">Adult 4</option>
+            </select>
+            <label>Guests</label>
+            </div>
+
+            <div class="input-field col s6">
+                <select>
+                    <option value="1">NULL</option>
+                    <option value="2">Children 1</option>
+                    <option value="3">Children 2</option>
+                    <option value="4">Children 3</option>
+                </select>
+                <label>Children (Ages 2-12)</label>
+                </div>
+
+           <div class="input-field col s12 right-align">
+               <button class="btn waves-effect waves-light btn-large #009688" type="submit">Search</button>
+           </div>
+
+        </div>
+    </form>
+</div>
+<script src="../js/external_jquery/jquery-3.2.1.min.js"></script>
+<script src="../js/external_jquery/materialize.min.js"></script>
+<script src="../js/booking.js"></script>
+</body>
+</html>
